@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jennynz.android.gomeetupapp.DashboardActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/list_height"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_xs"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/status_dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xs"
+            android:paddingTop="@dimen/padding_xs">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Fergus Roache"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2k"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:text="+34"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="@dimen/status_dot_diameter"
+                    android:layout_height="@dimen/status_dot_diameter"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:background="@color/available" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Available, Teaching"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/list_height"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_xs"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/status_dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xs"
+            android:paddingTop="@dimen/padding_xs">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Jenny Sahng"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="24k"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:text="+10"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="@dimen/status_dot_diameter"
+                    android:layout_height="@dimen/status_dot_diameter"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:background="@color/helpWanted" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Available, Tutorial games wanted"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/list_height"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_xs"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/status_dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xs"
+            android:paddingTop="@dimen/padding_xs">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Michael Costeloe"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12k"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:text="+53"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="@dimen/status_dot_diameter"
+                    android:layout_height="@dimen/status_dot_diameter"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:background="@color/available" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Available"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/list_height"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_xs"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/status_dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xs"
+            android:paddingTop="@dimen/padding_xs">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Lee Sedol"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9p"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:text="+526"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="@dimen/status_dot_diameter"
+                    android:layout_height="@dimen/status_dot_diameter"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:background="@color/available" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Available, Teaching"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/list_height"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="@dimen/list_height"
+            android:layout_height="match_parent"
+            android:padding="@dimen/padding_xs"
+            android:weightSum="1">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/status_dot" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/padding_xs"
+            android:paddingTop="@dimen/padding_xs">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center_vertical"
+                android:text="Stan Roache"
+                android:textColor="@color/colorPrimary"
+                android:textSize="14sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="15k"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:text="+28"
+                    android:textSize="12sp" />
+
+                <View
+                    android:layout_width="@dimen/status_dot_diameter"
+                    android:layout_height="@dimen/status_dot_diameter"
+                    android:layout_marginLeft="@dimen/padding_s"
+                    android:background="@color/unavailable" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:text="Unavailable"
+                    android:textSize="12sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    
+</LinearLayout>
